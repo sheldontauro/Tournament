@@ -1,0 +1,14 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9092
+  adminConnectors:
+    - type: http
+      port: 9093
+
+mongoHost : localhost
+mongoPort : 27017
+mongoDB : tournament
+collectionName: teams
+collectionName1: matches
+collectionName2: players
